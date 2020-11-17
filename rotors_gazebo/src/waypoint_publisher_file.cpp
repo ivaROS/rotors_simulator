@@ -21,7 +21,7 @@
 #include <fstream>
 #include <iostream>
 
-#include <Eigen/Geometry>
+#include <eigen3/Eigen/Geometry>
 #include <mav_msgs/conversions.h>
 #include <mav_msgs/default_topics.h>
 #include <mav_msgs/eigen_mav_msgs.h>

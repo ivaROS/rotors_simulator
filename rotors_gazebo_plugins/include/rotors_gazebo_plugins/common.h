@@ -21,7 +21,7 @@
 #ifndef ROTORS_GAZEBO_PLUGINS_COMMON_H_
 #define ROTORS_GAZEBO_PLUGINS_COMMON_H_
 
-#include <Eigen/Dense>
+#include <eigen3/Eigen/Dense>
 #include <gazebo/gazebo.hh>
 #include <mav_msgs/default_topics.h>
 

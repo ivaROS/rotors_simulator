@@ -46,7 +46,7 @@ if (BUILD_MAVLINK_INTERFACE)
 endif()
 
 
-find_package(Eigen REQUIRED)
+find_package(Eigen3 REQUIRED)
 find_package(octomap REQUIRED)
 find_package(gazebo REQUIRED)
 find_package(OpenCV REQUIRED)
@@ -62,7 +62,7 @@ catkin_package(
   INCLUDE_DIRS include ${Eigen_INCLUDE_DIRS}
   LIBRARIES rotors_gazebo_motor_model rotors_gazebo_controller_interface
   CATKIN_DEPENDS cv_bridge geometry_msgs mav_msgs octomap_msgs octomap_ros rosbag roscpp rotors_comm rotors_control std_srvs tf
-  DEPENDS eigen gazebo octomap opencv
+  DEPENDS eigen3 gazebo octomap opencv
 )
 
 include_directories(include ${catkin_INCLUDE_DIRS})

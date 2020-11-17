@@ -23,7 +23,7 @@
 #define ROTORS_GAZEBO_PLUGINS_CONTROLLER_INTERFACE_H
 
 #include <boost/bind.hpp>
-#include <Eigen/Eigen>
+#include <eigen3/Eigen/Eigen>
 #include <stdio.h>
 
 #include <gazebo/common/common.hh>

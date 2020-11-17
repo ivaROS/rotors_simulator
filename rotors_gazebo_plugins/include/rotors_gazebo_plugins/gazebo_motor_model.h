@@ -25,7 +25,7 @@
 #include <stdio.h>
 
 #include <boost/bind.hpp>
-#include <Eigen/Eigen>
+#include <eigen3/Eigen/Eigen>
 #include <gazebo/common/common.hh>
 #include <gazebo/common/Plugin.hh>
 #include <gazebo/gazebo.hh>

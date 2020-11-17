@@ -22,7 +22,7 @@
 #ifndef ROTORS_GAZEBO_PLUGINS_MOTOR_MODEL_H
 #define ROTORS_GAZEBO_PLUGINS_MOTOR_MODEL_H
 
-#include <Eigen/Eigen>
+#include <eigen3/Eigen/Eigen>
 
 class MotorModel
 {

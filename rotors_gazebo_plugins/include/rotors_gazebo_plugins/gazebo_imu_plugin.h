@@ -23,7 +23,7 @@
 
 #include <random>
 
-#include <Eigen/Core>
+#include <eigen3/Eigen/Core>
 #include <gazebo/common/common.hh>
 #include <gazebo/common/Plugin.hh>
 #include <gazebo/gazebo.hh>

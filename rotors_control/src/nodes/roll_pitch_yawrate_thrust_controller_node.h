@@ -22,7 +22,7 @@
 #define ROTORS_CONTROL_ROLL_PITCH_YAWRATE_THRUST_CONTROLLER_NODE_H
 
 #include <boost/bind.hpp>
-#include <Eigen/Eigen>
+#include <eigen3/Eigen/Eigen>
 #include <stdio.h>
 
 #include <geometry_msgs/PoseStamped.h>
