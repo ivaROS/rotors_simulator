@@ -29,7 +29,7 @@ doi="10.1007/978-3-319-26054-9_23",
 url="http://dx.doi.org/10.1007/978-3-319-26054-9_23"
 }
 ```
-Installation Instructions
+Installation Instructions for Ubuntu 16.04LTS
 -------------------------
 
  1. Install and initialize ROS indigo desktop full, additional ROS packages, catkin-tools, and wstool:
@@ -56,7 +56,7 @@ Installation Instructions
 
  ```
  $ cd ~/catkin_ws/src
- $ git clone git@github.com:ethz-asl/rotors_simulator.git
+ $ git clone git@github.com:ivaROS/rotors_simulator.git
  $ git clone git@github.com:ethz-asl/mav_comm.git
  ```
   > **Note** if you want to use `wstool` you can replace the above commands with
